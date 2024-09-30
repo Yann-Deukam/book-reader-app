@@ -19,7 +19,7 @@ const Header = () => {
         <motion.input
           type="text"
           placeholder="what will you read today"
-          className="px-4 py-2 rounded-md ml-[2rem] border border-purple-600 md:w-[400px] sm:w-[200px] bg-purple-50/15"
+          className="px-4 py-2 rounded-md ml-[2rem] border border-purple-600 lg:w-[400px] md:w-[400px] sm:w-[200px] bg-purple-50/15"
         />
       </motion.div>
       <motion.div

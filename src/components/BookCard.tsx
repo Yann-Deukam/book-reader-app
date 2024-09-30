@@ -4,7 +4,7 @@ const BookCard = ({ title, coverImage, description, onClick }: any) => {
   return (
     <>
       <div
-        className="w-[200px] p-2 rounded-md hover:shadow-md cursor-pointer transition transform ease-in duration-300 mb-3 mr-3"
+        className="w-[200px] p-4 bg-white rounded-lg shadow-md hover:shadow-lg cursor-pointer transition transform ease-in duration-300 mb-3 mr-3"
         onClick={onClick}
       >
         <img
@@ -14,8 +14,8 @@ const BookCard = ({ title, coverImage, description, onClick }: any) => {
           style={imageStyle}
         />
         <div className="mt-1">
-          <h3 className="text-xl text-slate-800 mb-1">{title}</h3>
-          <p className="text-sm text-slate-700">{description}</p>
+          <h3 className="font-bold mb-1">{title}</h3>
+          <p className="text-xs text-slate-700">{description}</p>
         </div>
       </div>
     </>
@@ -32,4 +32,5 @@ const cardStyle = {
 
 const imageStyle = {
   aspectRatio: 1,
+  height: "200px",
 };
